@@ -1,1 +1,2 @@
 1) [Implementation of 'ls-l' command](https://github.com/venkat1924/OS-CS235AI/blob/main/exp1/lab_1.c): uses opendir(), readdir(). stat(), getpwuid(), getgrgid(), localtime() and strftime().
+2) [Using process control system calls](https://github.com/venkat1924/OS-CS235AI/tree/main/exp2): the fork program executes the application program. The application program has been compiled as 'app' and the fork program as a.out.
