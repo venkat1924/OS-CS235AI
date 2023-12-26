@@ -10,7 +10,7 @@ unsigned long long factorial(int n) {
 
 int main(int argc, char* argv[]) {
     if (argc != 2) {
-        printf("Usage: %s <number>\n", argv[0]);
+        printf("Did not pass in argument.\n", argv[0]);
         return 1;
     }
 
