@@ -39,7 +39,7 @@ int main()
             AP[i]=(buf.st_mode&j)?P[i]:'-';
         printf("%s",AP);
         printf("%5d",buf.st_uid);
-	p=getpwuid(buf.st_uid);
+	    p=getpwuid(buf.st_uid);
         printf("%.8s", p->pw_name);
         g= getgrgid(buf.st_gid);
         printf("-%-8.8s",g->gr_name);
